@@ -77,4 +77,7 @@ Pinteresting::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Define default url options in production environment files
+  config.action_mailer.default_url_options = { :host => 'http://calm-shelf-6157.herokuapp.com' }
 end
