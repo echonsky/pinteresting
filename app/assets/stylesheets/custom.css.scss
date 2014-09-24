@@ -22,3 +22,15 @@ p {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif; 
 }
 
+.checkbox {
+	margin-left: 20px;
+	margin-right: 0;
+	padding: 0;
+	label {
+		padding: 0;
+	}
+}
+.panel {
+	width: 30%;
+	margin: 0 auto;
+}
