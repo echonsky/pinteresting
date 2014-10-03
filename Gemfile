@@ -13,6 +13,8 @@ gem 'bootstrap-sass', '3.2.0.2'
 gem 'devise', '~> 3.1.0.rc2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'masonry-rails', '~> 0.2.0'
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
 	gem 'sqlite3', '1.3.8'
