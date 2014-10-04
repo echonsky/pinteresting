@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 $body-bg: #ecf0f1;
-$font-family-sans-serif: 'Museo Slab 500','Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height: 45px;
 $navbar-default-bg: #ffffff;
 $navbar-default-brand-color: #c0392b;
@@ -35,4 +35,8 @@ p {
 .panel {
 	width: 45%;
 	margin: 0 auto;
+}
+
+.form-control {
+	height: auto;
 }
